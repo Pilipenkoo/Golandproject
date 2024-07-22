@@ -11,6 +11,9 @@ func main() {
 	list1 = []int{1, 2, 4, 6, 8}
 	fmt.Println(Append(list1, 1, 2, 3, 532, 523, 34, 3))
 	slice_train()
+	reverse(&list1)
+	fmt.Println(list1)
+	a()
 
 }
 
